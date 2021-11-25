@@ -1,0 +1,125 @@
+@media (max-width: 1500px) {  }
+
+@media (max-width: 1199px) {
+
+
+    
+    .header-area .container {
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+    .header-social a {
+        padding: 10px;
+    }
+    .navbar-brand img {
+        max-width: 175px;
+    }
+
+
+
+}
+@media (max-width: 991px) {  
+
+    
+    .cronk-text h3 {
+        font-size: 30px;
+    }
+    .buy-btn {
+        max-width: 268px;
+    }
+    .cta-btn {
+        display: block;
+        text-align: center;
+    }
+    .cta-btn button{
+        width: auto;
+    }
+    .cta-btn button {
+        width: auto;
+        padding: 15px 37px;
+    }
+    .cta-btn button br {
+       display: none;
+    }
+    .cta-title h4 {
+        margin-bottom: 3px;
+    }
+    .cta-text p {
+        margin-bottom: 12px;
+    }
+    .club-items-grid {
+        grid-gap: 34px;
+    }
+    .community-btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .community-btn a.site-btn {
+        margin-top: 0px;
+        text-align: center;
+        width: 48%;
+        padding: 15px 0px;
+    }
+    .pt-line.mb-5 {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 100px;
+        z-index: -1;
+    }
+    .subscribe-form input {
+        padding: 2px 18px;
+        height: 43px;
+    }
+    .navbar-nav li.nav-item a.nav-link {
+        margin: 0px 1px;
+    }
+    .navbar-brand img {
+        max-width: 167px;
+    }
+
+
+}
+
+@media (max-width: 767px) {  
+    .banner-section .container {
+        padding: 0px;
+    }
+    .club-items-grid {
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+    }
+    .single-club-img img {
+        max-width: 55px;
+    }
+    .single-club-img {
+        flex: 0 0 auto;
+        width: 30%;
+        justify-content: flex-start;
+        min-height: auto;
+    }
+    .club-cotnent-text p {
+        text-align: left;
+    }
+
+
+
+
+}
+
+@media (max-width: 575px) {  
+    .community-btn {
+        flex-direction: column;
+    }
+    .community-btn a.site-btn {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .center-text p a {
+        font-size: 12px;
+    }
+
+}
+
